@@ -23,5 +23,6 @@ export class ContactComponent implements OnInit {
       return;
     }
     this.success = true;
+    alert('SUCCESS!! :-)\n\n' + JSON.stringify(this.messageForm.value))
   }
 }
